@@ -7,12 +7,11 @@ environment:
     - PYTHON: "C:\\Miniconda"
       PYTHON_VERSION: "2.7.x"
       PYTHON_ARCH: "32"
-      EYEX_LIB_PATH: C:\projects\gazer\eyexsdk\lib\x86\
+
 
     - PYTHON: "C:\\Miniconda-x64"
       PYTHON_VERSION: "2.7.x"
       PYTHON_ARCH: "64"
-      EYEX_LIB_PATH: C:\projects\gazer\eyexsdk\lib\x64\
 
 matrix:
   fast_finish: true
