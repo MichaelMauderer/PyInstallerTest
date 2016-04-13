@@ -11,9 +11,8 @@ default_opts = ['--clean ',
                 '-y ',
                 '-p "{}" '.format(project_root),
                 '--onedir',
-                '-p "{}" '.format(project_root),
                 '--name {} '.format("main"),
-                '-p "{}" '.format(project_root),
+                '--debug',
                 ]
 
 command = '{pyinstaller} {opts} "{target}"'.format(pyinstaller=pyinstaller_path,
