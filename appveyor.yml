@@ -60,7 +60,7 @@ test_script:
 
   # Run test from binary
   - cd C:\projects\PyInstallerTest\dist\main
-  - main.exe
+  - main.exe -d
 
 
 build_script:
