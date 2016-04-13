@@ -63,5 +63,5 @@ test_script:
 
 
 build_script:
-  - cd C:\projects\main\
-  - python C:\projects\PyInstallerTest\scripts\make_exe.py
+  - cd C:\projects\PyInstallerTest\
+  - python C:\projects\PyInstallerTest\make_exe.py
