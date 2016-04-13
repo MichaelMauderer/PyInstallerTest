@@ -5,7 +5,7 @@ project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 print("Project root:", project_root)
 pyinstaller_path = os.getenv('PYINSTALLER_PATH', 'pyinstaller')
 
-target = os.path.join(project_root, 'PyInstallerFail', 'main.py')
+target = os.path.join(project_root, 'PyInstallerTest', 'main.py')
 
 default_opts = ['--clean ',
                 '-y ',
