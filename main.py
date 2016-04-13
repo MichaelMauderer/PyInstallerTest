@@ -9,5 +9,5 @@ if __name__ == '__main__':
     parser.add_argument('-d', action='store_true',
                         help='run test suite')
     args = parser.parse_args()
-    nose.main(argv=sys.argv[:1])
+    nose.main(argv=sys.argv[:1], module ='test')
     print("HelloWorld")
