@@ -1,2 +1,4 @@
+import aklcrn
+
 def test_fail():
     assert False
