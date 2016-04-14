@@ -1,6 +1,7 @@
-import test2
+import numpy as np
+import skimage
+import skimage.io
+
 
 def test_fail():
     assert False
-
-test2.test_fail()
