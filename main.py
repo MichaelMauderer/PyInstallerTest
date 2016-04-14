@@ -4,6 +4,7 @@ import argparse
 import nose
 import sys
 import test
+import numpy
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
